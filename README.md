@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [bikeinman.github.io](https://bikeinman.github.io/fementor-02-faq/)
+- Solution URL: [bikeinman.github.io/qr-card](https://bikeinman.github.io/qr-card/)
 
 ## My process
 
