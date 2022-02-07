@@ -1,55 +1,53 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-:root {
-    /* all colors hsl */
-    --white: 0, 0%, 100%;
-    --light-gray: 212, 45%, 89%;
-    --grayish-blue: 220, 15%, 55%;
-    --dark-blue: 218, 44%, 22%;
-    --min-mobile-width: 375px;
-    --max-desktop-width: 1440px
-}
-
-body {
-    font-family: Outfit, sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    background-color: hsl(var(--light-gray));
-    display: grid;
-    place-content: center;
-    min-height: 100vh;
-}
-
-.main {
-    width: 90%;
-}
-
-.card {
-    min-width: 325px;
-    max-width: 425px;
-    border-radius: 25px;
-    padding: 2em;
-    background-color: hsl(var(--white));
-    text-align: center;
-    box-shadow: 0px 5px 10px hsla(var(--dark-blue), 15%);
-    margin-bottom: 25px;
-}
-
-.card img {
-    width: 100%;
-    border-radius: 15px;
-}
-
-.card h1 {
-    font-size: 2em;
-    padding: 1em 0.25em;
-    color: hsl(var(--dark-blue));
-}
-
-.card p {
-    color: hsl(var(--grayish-blue));
-}
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+     :root {
+        /* all colors hsl */
+        --white: 0, 0%, 100%;
+        --light-gray: 212, 45%, 89%;
+        --grayish-blue: 220, 15%, 55%;
+        --dark-blue: 218, 44%, 22%;
+        --min-mobile-width: 375px;
+        --max-desktop-width: 1440px;
+    }
+    
+    body {
+        background-color: hsl(var(--light-gray));
+        display: grid;
+        place-content: center;
+        min-height: 100vh;
+        font-size: 15px;
+        font-family: Outfit, sans-serif;
+        font-weight: 400;
+    }
+    
+    .card {
+        margin: 0 auto;
+        width: 80%;
+        min-width: 300px;
+        max-width: 550px;
+        border-radius: 25px;
+        padding: 2em;
+        background-color: hsl(var(--white));
+        text-align: center;
+        box-shadow: 0px 5px 10px hsla(var(--dark-blue), 15%);
+        margin-bottom: 25px;
+    }
+    
+    .card img {
+        width: 100%;
+        border-radius: 15px;
+    }
+    
+    .card h1 {
+        font-size: 2rem;
+        padding: 1em 0.25em;
+        color: hsl(var(--dark-blue));
+    }
+    
+    .card p {
+        color: hsl(var(--grayish-blue));
+    }
